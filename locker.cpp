@@ -47,7 +47,7 @@ int main(int argc,char* argv[]){
 		if(secure_launch_check == "--launchedbymcbemlexe" || secure_launch_check == "--debug"){
 
 
-			HWND hcWnd = GetConsoleWindow();
+			HWND hcWnd = GetForegroundWindow();
 			ShowWindow(hcWnd, SW_HIDE);
 
 
