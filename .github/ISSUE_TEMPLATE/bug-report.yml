@@ -1,0 +1,38 @@
+name: Bug Report
+description: Bug Report Form
+title: "[Bug]: "
+labels: ["bug", "triage"]
+assignees:
+  - orbitgw
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report! It's a good way to help us improve the software.
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: Also tell us, what did you expect to happen?
+      placeholder: Tell us what you see!
+      value: "A bug happened!"
+    validations:
+      required: true
+  - type: textarea
+    id: how-to-cause
+    attributes:
+      label: How to cause the bug?
+      description: Tell us the step you cause the problem.
+      placeholder: ex. step1 ... \n    step2  ...
+    validations:
+      required: true
+  - type: dropdown
+    id: version
+    attributes:
+      label: Version
+      description: What version of our software are you running?
+      options:
+        - 0.0.1
+      default: 0
+    validations:
+      required: true
