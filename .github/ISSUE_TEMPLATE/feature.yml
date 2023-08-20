@@ -1,0 +1,14 @@
+name: Feature
+description: Tell us the feature you wanted.
+title: "[Feature]: "
+labels: ["feature"]
+assignees:
+  - orbitgw
+body:
+  - type: textarea
+    id: feature-wanted
+    attributes:
+      label: What features do you want in future versions?
+    validations:
+      required: true
+
