@@ -157,7 +157,7 @@ int WINAPI wWinMain(HINSTANCE hInstance, HINSTANCE, LPWSTR, int iCmdShow){
 
     InitTray(hInstance, hWnd);		                 
 
-    CreateProcessW(nullptr, sConLin, nullptr, nullptr, false, CREATE_NEW_CONSOLE, nullptr, nullptr, &si, &pi);
+    CreateProcessW(nullptr, sConLin, nullptr, nullptr, false, 0, nullptr, nullptr, &si, &pi);
 
     while (GetMessage(&msg, NULL, 0, 0)){
         TranslateMessage(&msg);
