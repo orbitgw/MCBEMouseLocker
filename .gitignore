@@ -1,4 +1,6 @@
 .vs/
 x64/
+production/
 Output/
 desktop.ini
+MCBEML.iss
