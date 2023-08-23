@@ -6,6 +6,7 @@
 <img alt="GitHub" src="https://img.shields.io/github/license/orbitgw/MCBEMouseLocker"> <img alt="GitHub all releases" src="https://img.shields.io/github/downloads/orbitgw/MCBEMouseLocker/total"> <img alt="GitHub code size in bytes" src="https://img.shields.io/github/languages/code-size/orbitgw/MCBEMouseLocker"> <img alt="GitHub release (with filter)" src="https://img.shields.io/github/v/release/orbitgw/MCBEMouseLocker"> <img alt="GitHub tag (with filter)" src="https://img.shields.io/github/v/tag/orbitgw/MCBEMouseLocker">
 
 A tool to resolve the mouse problem of Minecraft for Windows (Bedrock Edition)
+
 <i>Notice that: this program is in the development stage</i>
 </div>
 
